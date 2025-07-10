@@ -1,0 +1,45 @@
+/* Base styles */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f3f4f4; /* Off-white background */
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header styles */
+header {
+    background-color: #3d657b; /* Blue */
+    color: white;
+    text-align: center;
+    padding: 2em 1em;
+}
+
+/* Main blog post content */
+main {
+    max-width: 800px;
+    margin: 2em auto;
+    padding: 0 1em;
+}
+
+article {
+    background-color: white;
+    border-left: 5px solid #3d657b;
+    padding: 1em;
+    margin-bottom: 2em;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+}
+
+.date {
+    font-size: 0.9em;
+    color: #666;
+}
+
+/* Footer styles */
+footer {
+    background-color: #3d657b;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+    margin-top: 3em;
+}
